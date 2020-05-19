@@ -1,0 +1,15 @@
+<div id="header" class="row">
+    <div id="imagensitio" class="col-sm-4 col-3">
+      <img src="../../../assets/media/logo.png" height="160" width="310" alt="OBRA SOCIAL SANITARIA"/>
+    </div>
+
+    <nav class="col-9 col-sm-8">
+        <p>OBRA SOCIAL <br/>SANITARIA <br/><br/>"LOS ALISOS"</p>
+        <ul>
+            <li><a [routerLink]="['inicio']" (click)="cambio()">Inicio</a></li>
+            <li><a [routerLink]="['registro']" (click)="cambio()">Registro</a></li>
+            <li><a [routerLink]="['slider']" (click)="cambio()">Galería</a></li>
+        </ul>
+    </nav>
+</div>
+<app-inicio *ngIf="cambiar"></app-inicio>

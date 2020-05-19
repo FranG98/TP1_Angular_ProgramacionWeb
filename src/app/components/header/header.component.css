@@ -1,0 +1,54 @@
+#header{
+    width: 100%;
+    margin-left: 0px;
+}
+
+#imagensitio{
+    background-color: black;
+    float: left;
+    background-size: contain;
+    height: 170px;
+}
+ 
+
+nav {
+    float: right;
+    background-color: black;
+    height: 170px;
+}
+
+nav p{
+    color: white;
+    margin-top: 13px;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul{
+    list-style-type: none;
+    float: right;
+    margin-right: 30px;
+    margin-top: -60px;
+}
+
+nav ul li{
+    color: white;
+    display: inline-block;
+    font: bold;
+    background-color: gray;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 12px;
+    padding: 6.5px;
+    margin-left: 15px;
+    
+}
+
+a{
+    color: white;
+}
+
+nav ul li a:link{
+    text-decoration: none;
+}

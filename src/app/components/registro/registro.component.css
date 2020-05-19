@@ -1,0 +1,71 @@
+#formulario{
+    width: 35%;
+    float: left;
+    background-color: lightgrey;
+    height: 649px;
+}
+
+#formulario h1{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#formulario table{
+    border: 1px gray;
+    width: 90%;
+    margin-left: 12px;
+}
+
+#formulario table tr .colum1{
+    background-color: lightskyblue;
+    font-size: 18px;
+    font: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#formulario table tr td{
+    font: bold;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#formulario table tr td input{
+    width: 63%;
+    padding: 4px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+#formulario form #botones input{
+    padding: 7px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+    margin-left: 150px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #65bce8 0%, #306485 100%);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font: 900;
+}
+
+#formulario form #botones input:hover{
+    background: linear-gradient(180deg, #fbde74 0%, #ff9900 100%);
+    transition: all .3s;
+}
+
+#relleno{
+    background-color: lightgray;
+    width: 65%;
+    height: auto;
+    float: right;
+}
+
+#relleno img{
+    width: 100%;
+    height: 633px;
+}

@@ -1,0 +1,58 @@
+#footer{
+    clear: both;
+    float: left;
+    background-color: black;
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: -17px;
+}
+
+#footerIzq{
+    float: left;
+    width: 50%;
+    border-color: white;
+    border-style: dashed;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-left: transparent;
+}
+
+#footerIzq h1{
+    font-size: 30px;
+    margin-top: 17px;
+}
+
+#footerIzq #correo{
+    float: left;
+    margin-left: 10px;
+    width: 40%;
+}
+
+#footerIzq #telefono {
+    float: left;
+    margin-right: 15px;
+    width: 29%;
+}
+#footerDer{
+    float: right;
+    width: 49%;
+    text-align: left;
+}
+
+#footerDer h1{
+    text-align: center;
+    margin-top: 17px;
+    font-size: 30px;
+}
+
+#footerDer ul li{
+    display: inline-block;
+    margin-left: 100px;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+#footerDer ul li a{
+    color: white;
+}
